@@ -1,0 +1,89 @@
+<!DOCYPTE html>
+<html>
+	<head>
+		<title></title>
+		<meta charset="UTF-8"/>
+		<style>
+			#mybody{
+				border:2px solid black;
+				width:775px;
+				height:649px;
+				background-color:#FF99CC;
+			}
+			#top{
+				border:1px solid red;
+				margin-left:5px;
+				margin-right:5px;
+				height:200px;
+				background-color:#0099FF;
+			}
+			#top1left,#top1right{
+				border:1px solid red;
+				height:70px;
+				float:left;
+			}
+			#top1left{
+				background-color:#CCFFFF;
+				width:200px;
+				margin-left:10px;
+			}
+			#top1right{
+				background-color:#FFCC99;
+				width:540px;
+			}
+			#top2{
+				border:1px solid red;
+				height:125px;
+				background-color:#66FF66;
+				margin-left:10px;
+				margin-right:9px;
+				clear:left;
+			}
+			#center{
+				border:1px solid red;
+				margin-left:5px;
+				margin-right:5px;
+				background-color:#990099;
+				height:350px;
+			}
+			#bottom{
+				border:1px solid red;
+				margin-left:5px;
+				margin-right:5px;
+				background-color:#FFCC33;
+				height:80px;
+			}
+			#centerleft,#centerright{
+				border:1px solid red;
+				height:330px;
+				margin-top:10px;
+				float:left;
+			}
+			#centerleft{
+				background-color:#00CC33;
+				width:500px;
+				margin-left:10px;
+			}
+			#centerright{
+				background-color:#FFFF00;
+				width:240px;
+			}
+		</style>
+	</head>
+	<body>
+		<div id="mybody">
+			<div id="top">
+				<div id="top1">
+					<div id="top1left"></div>
+					<div id="top1right"></div>
+				</div>
+				<div id="top2"></div>
+			</div>
+			<div id="center">
+				<div id="centerleft"></div>
+				<div id="centerright"></div>
+			</div>
+			<div id="bottom"></div>
+		</div>
+	</body>
+</html>
